@@ -1,0 +1,38 @@
+﻿序号,数据集/版本,原目录ID,任务,当前分类,依据/限制,来源或入口
+1,CVC-ClinicDB,IX0372,H01,待核实/不完整,文档为天池目录入口；尚未确认原始图像+mask 可匿名获取的官方文件渠道。,https://tianchi.aliyun.com/dataset/dataDetail?dataId=93690
+2,HECKTOR 2022,IX0541,"H02,H40",有明确门槛,官方当前暂停提供数据访问，等待合作医院协议续签。,https://hecktor.grand-challenge.org/Data/
+3,WMH,IX0787,H03,待核实/不完整,原站本次代理连接失败，官方代码仓库未落实替代下载；不等于永久不可用。,https://wmh.isi.uu.nl/
+4,RETOUCH,IX1065,H04,有明确门槛,要求注册并签署数据共享协议；匿名下载页拒绝访问。,https://retouch.grand-challenge.org/Home/
+5,RAOS,IX0485,"H05,H20,H21,H22,H23,H24,H25",有明确门槛,机构/实名邮箱申请解压密码；README 写明 .edu 邮箱、研究用途、两天内回复。,https://github.com/Luoxd1996/RAOS
+6,CoNSeP,IX0264,H06,待核实/不完整,原站及官方 HoVer-Net 仓库指向的页面当前跳 Warwick 登录；未确认可用的官方公开替代包。,https://warwick.ac.uk/fac/sci/dcs/research/tia/data/hovernet/
+7,ATM'22,IX0505,H07,有明确门槛,需发送签署的数据协议完成注册后获取数据访问。,https://atm22.grand-challenge.org
+8,AIIB23,IX0506,H07,待核实/不完整,CodaLab 页面为前端入口，数据页内容和图像+标签下载权限未落实。,https://codalab.lisn.upsaclay.fr/competitions/13238
+9,EXACT09,IX0502,H07,有明确门槛,下载流程要求注册团队，规则限制团队外分发；分支参考可得性还需核对。,http://image.diku.dk/exact/information.php
+10,CHASE,IX0157,H08,待核实/不完整,原站本次代理连接失败，待找发布方替代渠道。,https://blogs.kingston.ac.uk/retinal/chasedb1/
+11,DRIVE,IX0159,H08,待核实/不完整,匿名 Download 页返回 Forbidden；具体注册流程、公开测试 mask 覆盖尚未核实。,https://drive.grand-challenge.org/
+12,CheXpert,IX0098,"H09,H10,H11",待核实/不完整,官网指向 Stanford AIMI 申请门户/Redivis；本次仅取得前端页面，原版当前文件权限未确认，不能据此断言一定需人工审批或能匿名下载。,https://stanfordmlgroup.github.io/competitions/chexpert/
+13,VinDr-CXR,IX0464,"H09,H10,H11",有明确门槛,PhysioNet credentialed 身份、CITI 培训、DUA 三项要求。,https://physionet.org/content/vindr-cxr/1.0.0/
+14,Derm7pt,IX0005,H12,有明确门槛,下载页要求填写密码申请表，获取用户名/密码；不属于匿名直接获取。,https://derm.cs.sfu.ca/Download.html
+15,PH2,IX0010,"H12,H13",有明确门槛,官方说明要求先填简短注册表；虽然页面显示网盘链接，仍按注册要求统计。,https://www.fc.up.pt/addi/ph2%20database.html
+16,EyePACS,IX0161,H14,有明确门槛,文档入口为 Kaggle 比赛，需相应账号及比赛数据访问条件；未使用第三方转换副本替代。,https://www.kaggle.com/c/diabetic-retinopathy-detection/data
+17,APTOS 2019 Blindness Det.,IX0179,H14,有明确门槛,文档入口为 Kaggle 比赛，需相应账号及比赛数据访问条件。,https://www.kaggle.com/competitions/aptos2019-blindness-detection/overview
+18,IDRID2018,IX0160,H14,待核实/不完整,IEEE DataPort 返回浏览器挑战页面；尚未验证实际文件访问条件。,https://idrid.grand-challenge.org/
+19,MESSIDOR-2,IX0165,H14,有明确门槛,填表获得个人下载链接，邮件链接有效期 7 天。,https://www.adcis.net/en/third-party/messidor2/
+20,iChallenge-REFUGE2,IX0197,"H15,H16",待核实/不完整,文档名称 REFUGE2 与链接 REFUGE 不一致；对应年份及人工标签下载渠道待核实。,https://refuge.grand-challenge.org/
+21,DRISHTI-GS,IX0156,H15,有明确门槛,官网明确人工 ground truth 仅注册后开放。,http://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php
+22,ACRIMA,IX0181,H16,待核实/不完整,Figshare share 页面本次只返回挑战/空页面；未取得公开包元数据。,https://figshare.com/s/c2d31f850af14c5b5232
+23,LAG,IX0216,H16,待核实/不完整,官方仅给出 LAG_database_part_1.rar；本次 Dropbox 连接异常，包的完整性/对应病例范围待核实。,https://github.com/smilell/AG-CNN
+24,M&Ms,IX0732,"H17,H18",有明确门槛,345 例填表邮件取链接，另 30 例加拿大数据需合作申请；当前 vendor 真值范围还需核对。,https://www.ub.edu/mnms/download.php
+25,LiTS,IX0487,H20,待核实/不完整,CodaLab 目录可打开；未落实原始 LiTS 图像+人工标签匿名下载渠道。,https://competitions.codalab.org/competitions/17094
+26,BTCV Abdomen,IX0547,"H20,H21,H22,H23,H24,H25",待核实/不完整,Synapse 前端可打开，不等于图像/标注下载已授权；文件权限未验证。,https://www.synapse.org/#!Synapse:syn3193805/wiki/217752
+27,MSSEG 2016,IX0778,H26,有明确门槛,当前官网要求注册 Shanoir 账号并选择 MSSEG-2016 study。,https://portal.fli-iam.irisa.fr/msseg-challenge/english-msseg-data/
+28,MSSEG 2008,IX0779,H26,待核实/不完整,旧站本次 503；所需原始人工真值及替代渠道未确认。,http://www.ia.unc.edu/MSseg/index.html
+29,ISLES 2022,IX0785,H27,待核实/不完整,公开训练数据与原任务所需隐藏 C 真值不同；不把训练包公开当作完整满足该条目。需组织方接口或重设计。,https://isles22.grand-challenge.org/
+30,LNDb,IX0521,H29,待核实/不完整,匿名下载页 Forbidden；完整 CT 及人工参考的获取流程未核实。,https://lndb.grand-challenge.org/
+31,DDTI,IX0361,H30,待核实/不完整,链接到 TN3K 代码仓库；只找到明确 TN3K 包，未确认 DDTI 对应原始图像+mask。,https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation
+32,TN-SCUI2020,IX0352,H30,待核实/不完整,主页 Zenodo 3715942 是挑战设计文档，不是影像数据包；尚未确认图像+mask 入口。,https://tn-scui2020.grand-challenge.org/Home/
+33,EchoNet-Dynamic,IX1141,"H31,H32",有明确门槛,每位使用者注册；研究使用协议限制用途和分享，不可复用他人下载链接。,https://echonet.github.io/dynamic/index.html
+34,MIDOG2022,IX0237,H35,待核实/不完整,原站本次代理连接失败，官方原始 2022 文件和标签入口待核实。,https://imig.science/midog/
+35,GlaS,IX0263,H37,待核实/不完整,官方页当前跳 Warwick 登录；未验证发布方公开替代文件。,https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest
+36,CRAG,IX0275,H37,待核实/不完整,文档指向第三方增强转换仓库；原始 CRAG 页面跳 Warwick 登录，原始实例标注包未确认。,https://github.com/XiaoyuZHK/CRAG-Dataset_Aug_ToCOCO
+37,StructSeg2019 Task 1,IX0528,H39,待核实/不完整,匿名 Download 页 Forbidden；注册要求和原始 Task1 标注文件入口待确认。,https://structseg2019.grand-challenge.org/

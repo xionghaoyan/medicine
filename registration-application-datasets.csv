@@ -1,0 +1,38 @@
+﻿序号,数据集/版本,原目录ID,任务,当前分类,依据/限制,来源或入口
+1,CVC-ClinicDB,IX0372,H01,待核实（疑似需注册）,文档入口为天池数据集页（需阿里云账号登录）；官方 polyp grand-challenge 渠道是否匿名可下未确认。,https://tianchi.aliyun.com/dataset/dataDetail?dataId=93690
+2,HECKTOR 2022,IX0541,"H02,H40",官方暂停（需联系组织方）,官方当前暂停提供数据访问，等待合作医院协议续签；任务实际只需 524 例公开训练集，恢复后优先补下。约30-50GB。,https://hecktor.grand-challenge.org/Data/
+3,WMH,IX0787,H03,待核实（渠道分歧）,同事原站代理连接失败；我方 DataverseNL API 实测文件公开（doi:10.34894/AECRSD，1791 个文件 restricted=False），以 Dataverse 渠道优先，原站失败非门槛证据。,https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/AECRSD
+4,RETOUCH,IX1065,H04,需表单申请/签协议,要求注册并签署数据共享协议；匿名下载页拒绝访问。约3-8GB。,https://retouch.grand-challenge.org/Home/
+5,RAOS,IX0485,"H05,H20,H21,H22,H23,H24,H25",需表单申请（轻流程）,数据在 Google Drive 公开，但解压密码需机构/实名（.edu）邮箱申请，作者两天内回复；限研究用途。约20-40GB。,https://github.com/Luoxd1996/RAOS
+6,CoNSeP,IX0264,H06,待核实（疑似需注册）,原站及官方 HoVer-Net 仓库指向页面当前跳 Warwick 登录；未确认官方公开替代包。约1GB。,https://warwick.ac.uk/fac/sci/dcs/research/tia/data/hovernet/
+7,ATM'22,IX0505,H07,需表单申请/签协议,需发送签署的数据协议完成注册后获取数据访问。约40-70GB。,https://atm22.grand-challenge.org
+8,AIIB23,IX0506,H07,需账号注册（即时）,CodaLab 竞赛注册；页面为前端入口，图像+标签下载权限待注册后核实。约15-30GB。,https://codalab.lisn.upsaclay.fr/competitions/13238
+9,EXACT09,IX0502,H07,需表单申请/签协议,下载流程要求注册团队，规则限制团队外分发；站点存活（探活200）。约1-5GB。,http://image.diku.dk/exact/information.php
+10,CHASE,IX0157,H08,待核实（瞬时网络失败）,同事本次代理连接失败；Kingston 原站历史为公开直下（约0.2GB），无已知访问门槛，下载时重试即可。,https://blogs.kingston.ac.uk/retinal/chasedb1/
+11,DRIVE,IX0159,H08,需账号注册（即时）,匿名 Download 页返回 Forbidden；grand-challenge 注册后可下；仅取原站可获取人工 mask 且独立于 A/C 的图。约0.1GB。,https://drive.grand-challenge.org/
+12,CheXpert,IX0098,"H09,H10,H11",需表单申请/签协议,官网指向 Stanford AIMI 申请门户/Redivis，需账号与数据使用请求；原版文件权限未确认（全量约440GB，Kaggle small 版 11.47GB 为备选）。,https://stanfordmlgroup.github.io/competitions/chexpert/
+13,VinDr-CXR,IX0464,"H09,H10,H11",需表单申请/签协议（审批关键路径）,PhysioNet credentialed 三项要求：身份认证、CITI 人类受试者培训、DUA；约192GB。,https://physionet.org/content/vindr-cxr/1.0.0/
+14,Derm7pt,IX0005,H12,需表单申请/签协议,下载页要求填写密码申请表，获取用户名/密码。约4-10GB。,https://derm.cs.sfu.ca/Download.html
+15,PH2,IX0010,"H12,H13",需表单申请（轻流程）,官方要求先填简短注册表；页面显示网盘链接，仍按注册要求统计。约0.15GB。,https://www.fc.up.pt/addi/ph2%20database.html
+16,EyePACS,IX0161,H14,需账号注册（即时）,Kaggle 比赛数据，需 Kaggle 账号并接受比赛规则；约89GB，不用第三方转换副本替代。,https://www.kaggle.com/c/diabetic-retinopathy-detection/data
+17,APTOS 2019 Blindness Det.,IX0179,H14,需账号注册（即时）,Kaggle 比赛数据，需 Kaggle 账号及比赛数据访问条件；约8.6GB。,https://www.kaggle.com/competitions/aptos2019-blindness-detection/overview
+18,IDRID2018,IX0160,H14,待核实（疑似需注册）,IEEE DataPort 返回浏览器挑战页面；实际文件访问条件未验证。,https://idrid.grand-challenge.org/
+19,MESSIDOR-2,IX0165,H14,需表单申请/签协议,填表获得个人下载链接，邮件链接有效期 7 天，需下载后本地留存。约10-25GB。,https://www.adcis.net/en/third-party/messidor2/
+20,iChallenge-REFUGE2,IX0197,"H15,H16",待核实（疑似需注册）,文档名称 REFUGE2 与链接 REFUGE 不一致；对应年份及人工标签下载渠道（挑战注册类）待核实。约10-20GB。,https://refuge.grand-challenge.org/
+21,DRISHTI-GS,IX0156,H15,需表单申请/签协议,官网明确人工 ground truth 仅注册后开放。约1-2GB。,http://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php
+22,ACRIMA,IX0181,H16,待核实（瞬时网络失败/疑反爬）,同事本次 figshare share 页仅返回挑战/空页面，疑为反爬；历史为公开直下（约1.5GB），无已知访问门槛，换网络/UA 重试。,https://figshare.com/s/c2d31f850af14c5b5232
+23,LAG,IX0216,H16,待核实（分卷完整性）,"AG-CNN README 提供 Dropbox 分卷直链（LAG_database_part_1.rar 等，约2-4GB）；同事连接异常，且 part_1 之外分卷与 11,760 图覆盖范围待核。",https://github.com/smilell/AG-CNN
+24,M&Ms,IX0732,"H17,H18",需表单申请/签协议,345 例填表邮件取链接；另 30 例加拿大数据需合作申请；vendor C/D 真值范围还需核对。约2-5GB。,https://www.ub.edu/mnms/download.php
+25,LiTS,IX0487,H20,需账号注册（即时）,CodaLab 目录可打开，需注册参与获取原始图像+人工标签；匿名直下渠道未落实。约30-40GB。,https://competitions.codalab.org/competitions/17094
+26,BTCV Abdomen,IX0547,"H20,H21,H22,H23,H24,H25",需账号注册（即时）,Synapse 前端可打开，不等于图像/标注下载已授权；需 Synapse 账号并接受使用条款，文件权限待验证。约5GB。,https://www.synapse.org/#!Synapse:syn3193805/wiki/217752
+27,MSSEG 2016,IX0778,H26,需账号注册（即时）,当前官网要求注册 Shanoir 账号并选择 MSSEG-2016 study；此前找到的 Zenodo 1307653 仅为补充结果记录非本体。约2-5GB。,https://portal.fli-iam.irisa.fr/msseg-challenge/english-msseg-data/
+28,MSSEG 2008,IX0779,H26,站点失效（需镜像/联系作者）,旧站本次 503/不可达；所需原始人工真值及替代渠道未确认。约1-5GB。,http://www.ia.unc.edu/MSseg/index.html
+29,ISLES 2022,IX0785,H27,需联系组织方,公开训练数据（Zenodo 1.69GB）与原任务所需隐藏 C 真值不同；不把训练包公开当作完整满足该条目，需组织方接口或重设计。,https://isles22.grand-challenge.org/
+30,LNDb,IX0521,H29,待核实（疑似需注册）,官方匿名下载页 Forbidden；另存在公开 Zenodo 记录 7153205（LNDb Dataset，约30.27GB/16文件，API 可匿名列出），核完整性后可免注册。,https://lndb.grand-challenge.org/
+31,DDTI,IX0361,H30,待核实（渠道未落实）,现有链接指向 TN3K 代码仓库，只确认 TN3K 包；DDTI 原始图像+mask 渠道未确认（原 cimalab 站已失效）。约1GB。,https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation
+32,TN-SCUI2020,IX0352,H30,待核实（渠道未落实）,主页 Zenodo 3715942 是挑战设计文档而非影像数据包；图像+mask 入口未确认。约2GB。,https://tn-scui2020.grand-challenge.org/Home/
+33,EchoNet-Dynamic,IX1141,"H31,H32",需表单申请/签协议,每位使用者注册并接受研究使用协议；限制用途与分享，不可复用他人下载链接；约7GB。,https://echonet.github.io/dynamic/index.html
+34,MIDOG2022,IX0237,H35,待核实（疑似需注册）,原站本次代理连接失败；官方原始 2022 文件和标签入口（挑战注册类）待核实。约5-10GB。,https://imig.science/midog/
+35,GlaS,IX0263,H37,待核实（疑似需注册）,官方页当前跳 Warwick 登录；academictorrents 存在公开镜像（约0.2GB）可作备选，原始渠道优先。,https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest
+36,CRAG,IX0275,H37,待核实（疑似需注册）,原始 CRAG 页面跳 Warwick 登录；GitHub 链接为第三方增强转换仓库，非任务所需原始实例标注。约1GB。,https://github.com/XiaoyuZHK/CRAG-Dataset_Aug_ToCOCO
+37,StructSeg2019 Task 1,IX0528,H39,需账号注册（即时，待核实）,匿名 Download 页 Forbidden；grand-challenge 注册要求与原始 Task1 标注文件入口待注册后确认。约5GB。我方此前 CSV 漏列，本次按同事清单补入。,https://structseg2019.grand-challenge.org/
