@@ -1,0 +1,22 @@
+# Local runtime and private data
+.DS_Store
+.env
+.env.*
+!.env.example
+.local/
+medicinebackend/data/
+*.sqlite*
+*.db
+*.log
+# Dependencies and generated output
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
